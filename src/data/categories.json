@@ -1,0 +1,290 @@
+[
+	{
+		"name": "Children's Menu",
+		"description": "Light and bright dishes.",
+		"section": "food",
+		"slug": "Children's Menu"
+	},
+	{
+		"name": "Lemonades/branded drinks",
+		"description": "Refreshing lemonades and signature drinks with a bright taste.",
+		"section": "drinks",
+		"slug": "Lemonades/branded drinks"
+	},
+	{
+		"name": "Delicatessen",
+		"description": "Fresh and delicious cold snacks for every taste.",
+		"section": "food",
+		"slug": "Delicatessen"
+	},
+	{
+		"name": "Hot snacks",
+		"description": "Hot snacks for a real appetite.",
+		"section": "food",
+		"slug": "Hot snacks"
+	},
+	{
+		"name": "Side dishes",
+		"description": "Side dishes for a complete and balanced lunch.",
+		"section": "food",
+		"slug": "Side dishes"
+	},
+	{
+		"name": "Salads",
+		"description": "Juicy salads with the perfect combination of flavors.",
+		"section": "food",
+		"slug": "Salads"
+	},
+	{
+		"name": "First dishes",
+		"description": "Hot first courses that warm and provide comfort.",
+		"section": "food",
+		"slug": "First dishes"
+	},
+	{
+		"name": "Dough",
+		"description": "Pasta that you want to order again.",
+		"section": "food",
+		"slug": "Dough"
+	},
+	{
+		"name": "Burger",
+		"description": "The perfect burger for real pleasure.",
+		"section": "food",
+		"slug": "Burger"
+	},
+	{
+		"name": "Meat",
+		"description": "Hot meat dishes for a big appetite.",
+		"section": "food",
+		"slug": "Meat"
+	},
+	{
+		"name": "Fish dishes",
+		"description": "Juicy fish cooked with aromatic spices.",
+		"section": "food",
+		"slug": "Fish dishes"
+	},    
+	{
+		"name": "Sauces",
+		"description": "Delicious sauces for the perfect complement to dishes.",
+		"section": "food",
+		"slug": "Sauces"
+	},
+	{
+		"name": "To the beer",
+		"description": "Crunchy and delicious snacks for a good rest.",
+		"section": "food",
+		"slug": "To the beer"
+	},
+	{
+		"name": "Desserts",
+		"description": "Light and delicious desserts for every taste.",
+		"section": "food",
+		"slug": "Desserts"
+	},
+	{
+		"name": "Banquet offers",
+		"description": "Festive dishes with spectacular presentation.",
+		"section": "food",
+		"slug": "Banquet offers"
+	},
+	{
+		"name": "Fresh",
+		"description": "Freshly squeezed juices from natural fruits.",
+		"section": "drinks",
+		"slug": "Fresh"
+	},
+	{
+		"name": "Drinks",
+		"description": "Freshly squeezed juices from natural fruits.",
+		"section": "drinks",
+		"slug": "Drinks"
+	},
+	{
+		"name": "Mulled wine",
+		"description": "An ideal choice for cold evenings.",
+		"section": "drinks",
+		"slug": "Mulled wine"
+	},
+	{
+		"name": "Wines of Ukraine",
+		"description": "An ideal choice for cold evenings.",
+		"section": "world-wines",
+		"slug": "Wines of Ukraine"
+	},
+	{
+		"name": "Sparkling wines Italy",
+		"description": "Italian sparkling wine is the perfect choice for a festive mood.",
+		"section": "world-wines",
+		"slug": "Sparkling wines Italy"
+	},
+	{
+		"name": "White wines France",
+		"description": "The perfect combination of freshness and elegance.",
+		"section": "world-wines",
+		"slug": "White wines France"
+	},
+	{
+		"name": "White wines Italy",
+		"description": "Elegant wines from Italy with a delicate aroma of fruit.",
+		"section": "world-wines",
+		"slug": "White wines Italy"
+	},
+	{
+		"name": "White wines Spain",
+		"description": "Freshness and sunny character in every glass.",
+		"section": "world-wines",
+		"slug": "White wines Spain"
+	},
+	{
+		"name": "White wines New Zealand",
+		"description": "An ideal choice for connoisseurs of light and aromatic wines.",
+		"section": "world-wines",
+		"slug": "White wines New Zealand"
+	},
+	{
+		"name": "Rosé wines of Portugal",
+		"description": "Freshness and mild sweetness in every glass.",
+		"section": "world-wines",
+		"slug": "Rosé wines of Portugal"
+	},
+	{
+		"name": "Rosé wines France",
+		"description": "French rosé wines with a delicate and refined taste.",
+		"section": "world-wines",
+		"slug": "Rosé wines France"
+	},
+	{
+		"name": "Red wines Italy",
+		"description": "Червоне вино з Італії — гармонія традицій та характеру.",
+		"section": "world-wines",
+		"slug": "Red wines Italy"
+	},
+	{
+		"name": "Red wines France",
+		"description": "Red wine from France is a time-tested classic.",
+		"section": "world-wines",
+		"slug": "Red wines France"
+	},
+	{
+		"name": "Red wines of Portugal",
+		"description": "An ideal choice for meat dishes and a cozy evening.",
+		"section": "world-wines",
+		"slug": "Red wines of Portugal"
+	},
+	{
+		"name": "Coffee",
+		"description": "Ароматна кава для енергії та настрою.",
+		"section": "coffee-tea",
+		"slug": "Coffee"
+	},
+	{
+		"name": "Cold coffee",
+		"description": "Refreshing cold coffee for a hot day.",
+		"section": "coffee-tea",
+		"slug": "Cold coffee"
+	},
+	{
+		"name": "Matcha",
+		"description": "Delicate taste and a natural boost of vigor.",
+		"section": "coffee-tea",
+		"slug": "Matcha"
+	},
+	{
+		"name": "Leaf tea",
+		"description": "Natural leaf tea with a rich aroma.",
+		"section": "coffee-tea",
+		"slug": "Leaf tea"
+	},
+	{
+		"name": "Natural tea",
+		"description": "The taste of nature in every cup.",
+		"section": "coffee-tea",
+		"slug": "Natural tea"
+	},
+	{
+		"name": "Grappa Chateau Chizay",
+		"description": "A strong drink with a refined taste and a mild aftertaste.",
+		"section": "alcoholic-beverages",
+		"slug": "Grappa Chateau Chizay"
+	},
+	{
+		"name": "Beer",
+		"description": "Classic beer for good company.",
+		"section": "alcoholic-beverages",
+		"slug": "Beer"
+	},
+	{
+		"name": "Vodka",
+		"description": "Classic vodka with a clean taste.",
+		"section": "alcoholic-beverages",
+		"slug": "Vodka"
+	},
+	{
+		"name": "Aperitifs",
+		"description": "Sophisticated drinks that whet your appetite.",
+		"section": "alcoholic-beverages",
+		"slug": "Aperitifs"
+	},
+	{
+		"name": "American whiskey",
+		"description": "A balance of sweet and woody notes in every sip.",
+		"section": "alcoholic-beverages",
+		"slug": "American whiskey"
+	},
+	{
+		"name": "Irish Whiskey",
+		"description": "A classic Irish drink with a smooth aftertaste.",
+		"section": "alcoholic-beverages",
+		"slug": "Irish Whiskey"
+	},
+	{
+		"name": "Scotch whisky",
+		"description": "Scotch whisky with a deep and rich taste.",
+		"section": "alcoholic-beverages",
+		"slug": "Scotch whisky"
+	},
+	{
+		"name": "Gin",
+		"description": "A gin with a refreshing and spicy character.",
+		"section": "alcoholic-beverages",
+		"slug": "Gin"
+	},
+	{
+		"name": "Rum",
+		"description": "Aromatic rum with a mild, sweet taste.",
+		"section": "alcoholic-beverages",
+		"slug": "Rum"
+	},
+	{
+		"name": "Tequila",
+		"description": "Classic tequila for cocktails and festive mood.",
+		"section": "alcoholic-beverages",
+		"slug": "Tequila"
+	},
+	{
+		"name": "Liqueur",
+		"description": "Sweet liqueurs with a rich aroma and taste.",
+		"section": "alcoholic-beverages",
+		"slug": "Liqueur"
+	},
+	{
+		"name": "Brandy and Cognac",
+		"description": "Refined brandies and cognacs with a deep aroma.",
+		"section": "alcoholic-beverages",
+		"slug": "Brandy and Cognac"
+	},
+	{
+		"name": "Short Drinks",
+		"description": "Short drinks — a balance of strength and aroma.",
+		"section": "alcoholic-cocktails",
+		"slug": "Short Drinks"
+	},
+	{
+		"name": "Long Drinks",
+		"description": "Light cocktails with ice and bright notes.",
+		"section": "alcoholic-cocktails",
+		"slug": "Long Drinks"
+	}
+]

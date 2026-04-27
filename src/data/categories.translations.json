@@ -1,0 +1,969 @@
+[
+	{
+		"slug": "Children's Menu",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Дитяче меню",
+    "bg": "Детско меню",
+    "hr": "Dječji jelovnik",
+    "cs": "Dětské menu",
+    "da": "Børnemenu",
+    "nl": "Kindermenu",
+    "en": "Kids' menu",
+    "et": "Lastemenüü",
+    "fi": "Lasten lista",
+    "fr": "Menu enfant",
+    "de": "Kindermenü",
+    "el": "Παιδικό μενού",
+    "hu": "Gyerekmenü",
+    "ga": "Roghchlár na bPáistí",
+    "it": "Menu per bambini",
+    "lv": "Bērnu ēdienkarte",
+    "lt": "Vaikų meniu",
+    "mt": "Menu tat-tfal",
+    "pl": "Menu dla dzieci",
+    "pt": "Menu infantil",
+    "ro": "Meniu pentru copii",
+    "sk": "Detské menu",
+    "sl": "Otroški meni",
+    "es": "Menú infantil",
+    "sv": "Barnmeny"
+			},
+			"description": {
+				"ua": "Смачні та веселі страви для маленьких гурманів.",
+    "bg": "Вкусни и забавни ястия за малки ценители.",
+    "hr": "Ukusna i zabavna jela za male gurmane.",
+    "cs": "Chutná a zábavná jídla pro malé gurmány.",
+    "da": "Lækre og sjove retter til små gourmeter.",
+    "nl": "Heerlijke en leuke gerechten voor kleine fijnproevers.",
+    "en": "Tasty and fun dishes for little gourmets.",
+    "et": "Maitsvad ja lõbusad road väikestele gurmaanidele.",
+    "fi": "Maukkaat ja hauskat annokset pienille kulinaristeille.",
+    "fr": "Des plats savoureux et amusants pour les petits gourmets.",
+    "de": "Leckere und lustige Gerichte für kleine Feinschmecker.",
+    "el": "Νόστιμα και διασκεδαστικά πιάτα για μικρούς καλοφαγάδες.",
+    "hu": "Finom és vidám ételek kis gourmet-knek.",
+    "ga": "Béilí blasta agus spraíúla do ghourmets beaga.",
+    "it": "Piatti gustosi e divertenti per piccoli buongustai.",
+    "lv": "Gardas un jautras maltītes mazajiem gardēžiem.",
+    "lt": "Skanūs ir linksmi patiekalai mažiesiems gurmanams.",
+    "mt": "Ikliet fit-togħma u divertenti għal gourmets żgħar.",
+    "pl": "Smaczne i wesołe dania dla małych smakoszy.",
+    "pt": "Pratos saborosos e divertidos para pequenos apreciadores.",
+    "ro": "Mâncăruri gustoase și distractive pentru mici gurmanzi.",
+    "sk": "Chutné a zábavné jedlá pre malých labužníkov.",
+    "sl": "Okusne in zabavne jedi za male gurmane.",
+    "es": "Platos deliciosos y divertidos para pequeños gourmets.",
+    "sv": "Goda och roliga rätter för små finsmakare."
+			}
+		}
+	},
+
+	{
+		"slug": "coffee",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Кава",
+				"bg": "Кафе",
+				"hr": "Kava",
+				"cs": "Káva",
+				"da": "Kaffe",
+				"nl": "Koffie",
+				"en": "Coffee",
+				"et": "Kohv",
+				"fi": "Kahvi",
+				"fr": "Café",
+				"de": "Kaffee",
+				"el": "Καφές",
+				"hu": "Kávé",
+				"ga": "Caife",
+				"it": "Caffè",
+				"lv": "Kafija",
+				"lt": "Kava",
+				"mt": "Kafè",
+				"pl": "Kawa",
+				"pt": "Café",
+				"ro": "Cafea",
+				"sk": "Káva",
+				"sl": "Kava",
+				"es": "Café",
+				"sv": "Kaffe"
+			},
+			"description": {
+				"ua": "Гарячі та холодні кавові напої.",
+				"bg": "Топли и студени кафе напитки.",
+				"hr": "Topli i hladni napitci od kave.",
+				"cs": "Teplé i studené kávové nápoje.",
+				"da": "Varme og kolde kaffedrikke.",
+				"nl": "Warme en koude koffiedranken.",
+				"en": "Hot and cold coffee drinks.",
+				"et": "Kuumad ja külmad kohvijoogid.",
+				"fi": "Kuumat ja kylmät kahvijuomat.",
+				"fr": "Boissons au café chaudes et froides.",
+				"de": "Heiße und kalte Kaffeegetränke.",
+				"el": "Ζεστά και κρύα ροφήματα καφέ.",
+				"hu": "Forró és hideg kávéitalok.",
+				"ga": "Deochanna caife te agus fuar.",
+				"it": "Bevande al caffè calde e fredde.",
+				"lv": "Karstie un aukstie kafijas dzērieni.",
+				"lt": "Karšti ir šalti kavos gėrimai.",
+				"mt": "Xorb tal-kafè sħun u kiesaħ.",
+				"pl": "Gorące i zimne napoje kawowe.",
+				"pt": "Bebidas de café quentes e frias.",
+				"ro": "Băuturi cu cafea, calde și reci.",
+				"sk": "Teplé a studené kávové nápoje.",
+				"sl": "Topli in hladni kavni napitki.",
+				"es": "Bebidas de café frías y calientes.",
+				"sv": "Varma och kalla kaffedrycker."
+			}
+		}
+	},
+	{
+    "slug": "Delicatessen",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Холодні закуски",
+            "en": "Delicatessen",
+            "de": "Kalte Snacks",
+            "es": "Aperitivos fríos"
+        },
+        "description": {
+            "ua": "Свіжі та смачні холодні закуски на будь-який смак.",
+            "en": "Fresh and delicious cold snacks for every taste.",
+            "de": "Frische und leckere kalte Snacks für jeden Geschmack.",
+            "es": "Aperitivos fríos frescos y deliciosos para todos los gustos."
+        }
+    }
+},
+{
+    "slug": "Hot snacks",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Гарячі закуски",
+            "en": "Hot snacks",
+            "de": "Warme Snacks",
+            "es": "Aperitivos calientes"
+        },
+        "description": {
+            "ua": "Гарячі закуски для справжнього апетиту.",
+            "en": "Hot snacks for a real appetite.",
+            "de": "Warme Snacks für den richtigen Appetit.",
+            "es": "Aperitivos calientes para un verdadero apetito."
+        }
+    }
+},
+{
+    "slug": "Side dishes",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Гарніри",
+            "en": "Side dishes",
+            "de": "Beilagen",
+            "es": "Guarniciones"
+        },
+        "description": {
+            "ua": "Гарніри для повноцінного та збалансованого обіду.",
+            "en": "Side dishes for a complete and balanced lunch.",
+            "de": "Beilagen für ein vollständiges und ausgewogenes Mittagessen.",
+            "es": "Guarniciones para un almuerzo completo y equilibrado."
+        }
+    }
+},
+{
+    "slug": "Salads",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Салати",
+            "en": "Salads",
+            "de": "Salate",
+            "es": "Ensaladas"
+        },
+        "description": {
+            "ua": "Соковиті салати з ідеальним поєднанням смаків.",
+            "en": "Juicy salads with the perfect combination of flavors.",
+            "de": "Saftige Salate mit der perfekten Geschmackskombination.",
+            "es": "Ensaladas jugosas con la combinación perfecta de sabores."
+        }
+    }
+},
+{
+    "slug": "First dishes",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Перші страви",
+            "en": "First dishes",
+            "de": "Suppen",
+            "es": "Primeros platos"
+        },
+        "description": {
+            "ua": "Гарячі перші страви, що зігрівають та дарують затишок.",
+            "en": "Hot first courses that warm and provide comfort.",
+            "de": "Heiße erste Gänge, die wärmen und Geborgenheit schenken.",
+            "es": "Primeros platos calientes que reconfortan y dan calor."
+        }
+    }
+},
+{
+    "slug": "Dough",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Тісто",
+            "en": "Dough",
+            "de": "Pasta & Teiggerichte",
+            "es": "Pasta"
+        },
+        "description": {
+            "ua": "Паста, яку захочеться замовити знову.",
+            "en": "Pasta that you want to order again.",
+            "de": "Pasta, die man immer wieder bestellen möchte.",
+            "es": "Pasta que querrás volver a pedir."
+        }
+    }
+},
+{
+    "slug": "Burger",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Бургери",
+            "en": "Burgers",
+            "de": "Burger",
+            "es": "Hamburguesas"
+        },
+        "description": {
+            "ua": "Ідеальний бургер для справжнього задоволення.",
+            "en": "The perfect burger for real pleasure.",
+            "de": "Der perfekte Burger für echten Genuss.",
+            "es": "La hamburguesa perfecta para un verdadero placer."
+        }
+    }
+},
+{
+    "slug": "Meat",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "М'ясо",
+            "en": "Meat",
+            "de": "Fleischgerichte",
+            "es": "Carnes"
+        },
+        "description": {
+            "ua": "Гарячі м'ясні страви для гарного апетиту.",
+            "en": "Hot meat dishes for a big appetite.",
+            "de": "Heiße Fleischgerichte für den großen Appetit.",
+            "es": "Platos de carne calientes para un gran apetito."
+        }
+    }
+},
+{
+    "slug": "Fish dishes",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Риба",
+            "en": "Fish dishes",
+            "de": "Fischgerichte",
+            "es": "Pescados"
+        },
+        "description": {
+            "ua": "Соковита риба, приготована з ароматними спеціями.",
+            "en": "Juicy fish cooked with aromatic spices.",
+            "de": "Saftiger Fisch, zubereitet mit aromatischen Gewürzen.",
+            "es": "Pescado jugoso cocinado con especias aromáticas."
+        }
+    }
+},
+{
+    "slug": "Sauces",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Соуси",
+            "en": "Sauces",
+            "de": "Saucen",
+            "es": "Salsas"
+        },
+        "description": {
+            "ua": "Смачні соуси для ідеального доповнення страв.",
+            "en": "Delicious sauces for the perfect complement to dishes.",
+            "de": "Köstliche Saucen als perfekte Ergänzung zu den Gerichten.",
+            "es": "Salsas deliciosas para el complemento perfecto de los platos."
+        }
+    }
+},
+{
+    "slug": "To the beer",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "До пива",
+            "en": "To the beer",
+            "de": "Zum Bier",
+            "es": "Para acompañar la cerveza"
+        },
+        "description": {
+            "ua": "Хрусткі та смачні закуски для гарного відпочинку.",
+            "en": "Crunchy and delicious snacks for a good rest.",
+            "de": "Knusprige und leckere Snacks für eine gute Erholung.",
+            "es": "Snacks crujientes y deliciosos para un buen descanso."
+        }
+    }
+},
+{
+    "slug": "Desserts",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Десерти",
+            "en": "Desserts",
+            "de": "Desserts",
+            "es": "Postres"
+        },
+        "description": {
+            "ua": "Легкі та смачні десерти на будь-який смак.",
+            "en": "Light and delicious desserts for every taste.",
+            "de": "Leichte und köstliche Desserts für jeden Geschmack.",
+            "es": "Postres ligeros y deliciosos para todos los gustos."
+        }
+    }
+},
+{
+    "slug": "Banquet offers",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Банкетні пропозиції",
+            "en": "Banquet offers",
+            "de": "Bankettangebote",
+            "es": "Ofertas de banquete"
+        },
+        "description": {
+            "ua": "Святкові страви з ефектною подачею.",
+            "en": "Festive dishes with spectacular presentation.",
+            "de": "Festliche Gerichte mit spektakulärer Präsentation.",
+            "es": "Platos festivos con una presentación espectacular."
+        }
+    }
+},
+{
+    "slug": "Lemonades/branded drinks",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Лимонади/фірмові напої",
+            "en": "Lemonades/branded drinks",
+            "de": "Limonaden/Hausgemachte Getränke",
+            "es": "Limonadas/bebidas de la casa"
+        },
+        "description": {
+            "ua": "Освіжаючі лимонади та фірмові напої з яскравим смаком.",
+            "en": "Refreshing lemonades and signature drinks with a bright taste.",
+            "de": "Erfrischende Limonaden und Signature-Getränke mit intensivem Geschmack.",
+            "es": "Limonadas refrescantes y bebidas de autor con un sabor vibrante."
+        }
+    }
+},
+{
+    "slug": "Fresh",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Фреші",
+            "en": "Fresh",
+            "de": "Frisch gepresste Säfte",
+            "es": "Jugos frescos"
+        },
+        "description": {
+            "ua": "Свіжовижаті соки з натуральних фруктів.",
+            "en": "Freshly squeezed juices from natural fruits.",
+            "de": "Frisch gepresste Säfte aus natürlichen Früchten.",
+            "es": "Zumos recién exprimidos de frutas naturales."
+        }
+    }
+},
+{
+    "slug": "Drinks",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Напої",
+            "en": "Drinks",
+            "de": "Getränke",
+            "es": "Bebidas"
+        },
+        "description": {
+            "ua": "Широкий вибір прохолодних та гарячих напоїв на будь-який смак.",
+            "en": "A wide selection of cold and hot drinks for every taste.",
+            "de": "Eine große Auswahl an kalten und heißen Getränken für jeden Geschmack.",
+            "es": "Una amplia selección de bebidas frías y calientes para todos los gustos."
+        }
+    }
+},
+{
+    "slug": "Mulled wine",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Глінтвейн",
+            "en": "Mulled wine",
+            "de": "Glühwein",
+            "es": "Vino caliente"
+        },
+        "description": {
+            "ua": "Ідеальний вибір для холодних вечорів.",
+            "en": "An ideal choice for cold evenings.",
+            "de": "Eine ideale Wahl für kalte Abende.",
+            "es": "Una elección ideal para las noches frías."
+        }
+    }
+},
+{
+    "slug": "Wines of Ukraine",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Вина України",
+            "en": "Wines of Ukraine",
+            "de": "Weine der Ukraine",
+            "es": "Vinos de Ucrania"
+        },
+        "description": {
+            "ua": "Найкращі вина вітчизняних виноробів.",
+            "en": "The best wines from domestic winemakers.",
+            "de": "Die besten Weine heimischer Winzer.",
+            "es": "Los mejores vinos de los viticultores nacionales."
+        }
+    }
+},
+{
+    "slug": "Sparkling wines Italy",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Ігристі вина Італії",
+            "en": "Sparkling wines Italy",
+            "de": "Schaumweine aus Italien",
+            "es": "Vinos espumosos de Italia"
+        },
+        "description": {
+            "ua": "Італійське ігристе вино — ідеальний вибір для святкового настрою.",
+            "en": "Italian sparkling wine is the perfect choice for a festive mood.",
+            "de": "Italienischer Schaumwein ist die perfekte Wahl für eine festliche Stimmung.",
+            "es": "El vino espumoso italiano es la elección perfecta para un ambiente festivo."
+        }
+    }
+},
+{
+    "slug": "White wines France",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Білі вина Франції",
+            "en": "White wines France",
+            "de": "Weißweine aus Frankreich",
+            "es": "Vinos blancos de Francia"
+        },
+        "description": {
+            "ua": "Ідеальне поєднання свіжості та елегантності.",
+            "en": "The perfect combination of freshness and elegance.",
+            "de": "Die perfekte Kombination aus Frische und Eleganz.",
+            "es": "La combinación perfecta de frescura y elegancia."
+        }
+    }
+},
+{
+    "slug": "White wines Italy",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Білі вина Італії",
+            "en": "White wines Italy",
+            "de": "Weißweine aus Italien",
+            "es": "Vinos blancos de Italia"
+        },
+        "description": {
+            "ua": "Елегантні вина з Італії з ніжним ароматом фруктів.",
+            "en": "Elegant wines from Italy with a delicate aroma of fruit.",
+            "de": "Elegante Weine aus Italien mit einem zarten Fruchtaroma.",
+            "es": "Vinos elegantes de Italia con un delicado aroma a frutas."
+        }
+    }
+},
+{
+    "slug": "White wines Spain",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Білі вина Іспанії",
+            "en": "White wines Spain",
+            "de": "Weißweine aus Spanien",
+            "es": "Vinos blancos de España"
+        },
+        "description": {
+            "ua": "Свіжість та сонячний характер у кожному келиху.",
+            "en": "Freshness and sunny character in every glass.",
+            "de": "Frische und sonniger Charakter in jedem Glas.",
+            "es": "Frescura y carácter soleado en cada copa."
+        }
+    }
+},
+{
+    "slug": "White wines New Zealand",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Білі вина Нової Зеландії",
+            "en": "White wines New Zealand",
+            "de": "Weißweine aus Neuseeland",
+            "es": "Vinos blancos de Nueva Zelanda"
+        },
+        "description": {
+            "ua": "Ідеальний вибір для цінителів легких та ароматних вин.",
+            "en": "An ideal choice for connoisseurs of light and aromatic wines.",
+            "de": "Eine ideale Wahl für Kenner leichter und aromatischer Weine.",
+            "es": "Una opción ideal para los conocedores de vinos ligeros y aromáticos."
+        }
+    }
+},
+{
+    "slug": "Rosé wines of Portugal",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Рожеві вина Португалії",
+            "en": "Rosé wines of Portugal",
+            "de": "Roséweine aus Portugal",
+            "es": "Vinos rosados de Portugal"
+        },
+        "description": {
+            "ua": "Свіжість та легка солодкість у кожному келиху.",
+            "en": "Freshness and mild sweetness in every glass.",
+            "de": "Frische und milde Süße in jedem Glas.",
+            "es": "Frescura y un dulzor suave en cada copa."
+        }
+    }
+},
+{
+    "slug": "Rosé wines France",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Рожеві вина Франції",
+            "en": "Rosé wines France",
+            "de": "Roséweine aus Frankreich",
+            "es": "Vinos rosados de Francia"
+        },
+        "description": {
+            "ua": "Французькі рожеві вина з делікатним та вишуканим смаком.",
+            "en": "French rosé wines with a delicate and refined taste.",
+            "de": "Französische Roséweine mit einem delikaten und raffinierten Geschmack.",
+            "es": "Vinos rosados franceses con un gusto delicado y refinado."
+        }
+    }
+},
+{
+    "slug": "Red wines Italy",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Червоні вина Італії",
+            "en": "Red wines Italy",
+            "de": "Rotweine aus Italien",
+            "es": "Vinos tintos de Italia"
+        },
+        "description": {
+            "ua": "Червоне вино з Італії — гармонія традицій та характеру.",
+            "en": "Red wine from Italy — a harmony of tradition and character.",
+            "de": "Rotwein aus Italien — eine Harmonie aus Tradition und Charakter.",
+            "es": "Vino tinto de Italia: una armonía de tradición y carácter."
+        }
+    }
+},
+{
+    "slug": "Red wines France",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Червоні вина Франції",
+            "en": "Red wines France",
+            "de": "Rotweine aus Frankreich",
+            "es": "Vinos tintos de Francia"
+        },
+        "description": {
+            "ua": "Червоне вино з Франції — це класика, перевірена часом.",
+            "en": "Red wine from France is a time-tested classic.",
+            "de": "Rotwein aus Frankreich ist ein zeitloser Klassiker.",
+            "es": "El vino tinto de Francia es una pieza clásica que ha superado la prueba del tiempo."
+        }
+    }
+},
+{
+    "slug": "Red wines of Portugal",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Червоні вина Португалії",
+            "en": "Red wines of Portugal",
+            "de": "Rotweine aus Portugal",
+            "es": "Vinos tintos de Portugal"
+        },
+        "description": {
+            "ua": "Ідеальний вибір для м'ясних страв та затишного вечора.",
+            "en": "An ideal choice for meat dishes and a cozy evening.",
+            "de": "Eine ideale Wahl für Fleischgerichte und einen gemütlichen Abend.",
+            "es": "Una opción ideal para platos de carne y una velada acogedora."
+        }
+    }
+},
+{
+    "slug": "Coffee",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Кава",
+            "en": "Coffee",
+            "de": "Kaffee",
+            "es": "Café"
+        },
+        "description": {
+            "ua": "Ароматна кава для енергії та настрою.",
+            "en": "Aromatic coffee for energy and mood.",
+            "de": "Aromatischer Kaffee für Energie und gute Laune.",
+            "es": "Café aromático para dar energía y mejorar el estado de ánimo."
+        }
+    }
+},
+{
+    "slug": "Cold coffee",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Холодна кава",
+            "en": "Cold coffee",
+            "de": "Eiskaffee",
+            "es": "Café frío"
+        },
+        "description": {
+            "ua": "Освіжаюча холодна кава для спекотного дня.",
+            "en": "Refreshing cold coffee for a hot day.",
+            "de": "Erfrischender Eiskaffee für einen heißen Tag.",
+            "es": "Café frío refrescante para un día caluroso."
+        }
+    }
+},
+{
+    "slug": "Matcha",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Матча",
+            "en": "Matcha",
+            "de": "Matcha",
+            "es": "Matcha"
+        },
+        "description": {
+            "ua": "Ніжний смак та природний заряд бадьорості.",
+            "en": "Delicate taste and a natural boost of vigor.",
+            "de": "Zarter Geschmack und ein natürlicher Energieschub.",
+            "es": "Sabor delicado y un impulso natural de energía."
+        }
+    }
+},
+{
+    "slug": "Leaf tea",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Листовий чай",
+            "en": "Leaf tea",
+            "de": "Blatttee",
+            "es": "Té de hoja"
+        },
+        "description": {
+            "ua": "Натуральний листовий чай з насиченим ароматом.",
+            "en": "Natural leaf tea with a rich aroma.",
+            "de": "Natürlicher Blatttee mit einem reichen Aroma.",
+            "es": "Té de hoja natural con un aroma intenso."
+        }
+    }
+},
+{
+    "slug": "Natural tea",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Натуральний чай",
+            "en": "Natural tea",
+            "de": "Natürlicher Tee",
+            "es": "Té natural"
+        },
+        "description": {
+            "ua": "Смак природи у кожній чашці.",
+            "en": "The taste of nature in every cup.",
+            "de": "Der Geschmack der Natur in jeder Tasse.",
+            "es": "El sabor de la naturaleza en cada taza."
+        }
+    }
+},
+{
+    "slug": "Grappa Chateau Chizay",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Грапа Шато Чизай",
+            "en": "Grappa Chateau Chizay",
+            "de": "Grappa Chateau Chizay",
+            "es": "Grappa Chateau Chizay"
+        },
+        "description": {
+            "ua": "Міцний напій з вишуканим смаком та м'яким післясмаком.",
+            "en": "A strong drink with a refined taste and a mild aftertaste.",
+            "de": "Ein starkes Getränk mit raffiniertem Geschmack und mildem Abgang.",
+            "es": "Una bebida fuerte con un gusto refinado y un retrogusto suave."
+        }
+    }
+},
+{
+    "slug": "Beer",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Пиво",
+            "en": "Beer",
+            "de": "Bier",
+            "es": "Cerveza"
+        },
+        "description": {
+            "ua": "Класичне пиво для гарної компанії.",
+            "en": "Classic beer for good company.",
+            "de": "Klassisches Bier für gute Gesellschaft.",
+            "es": "Cerveza clásica para una buena compañía."
+        }
+    }
+},
+{
+    "slug": "Vodka",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Горілка",
+            "en": "Vodka",
+            "de": "Wodka",
+            "es": "Vodka"
+        },
+        "description": {
+            "ua": "Класична горілка з чистим смаком.",
+            "en": "Classic vodka with a clean taste.",
+            "de": "Klassischer Wodka mit reinem Geschmack.",
+            "es": "Vodka clásico con un sabor limpio."
+        }
+    }
+},
+{
+    "slug": "Aperitifs",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Аперитиви",
+            "en": "Aperitifs",
+            "de": "Aperitifs",
+            "es": "Aperitivos"
+        },
+        "description": {
+            "ua": "Вишукані напої, що збуджують апетит.",
+            "en": "Sophisticated drinks that whet your appetite.",
+            "de": "Raffinierte Getränke, die den Appetit anregen.",
+            "es": "Bebidas sofisticadas que despiertan el apetito."
+        }
+    }
+},
+{
+    "slug": "American whiskey",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Американський віскі",
+            "en": "American whiskey",
+            "de": "Amerikanischer Whiskey",
+            "es": "Whiskey americano"
+        },
+        "description": {
+            "ua": "Баланс солодких та деревних нот у кожному ковтку.",
+            "en": "A balance of sweet and woody notes in every sip.",
+            "de": "Eine Ausgewogenheit von süßen und holzigen Noten in jedem Schluck.",
+            "es": "Un equilibrio de notas dulces y amaderadas en cada sorbo."
+        }
+    }
+},
+{
+    "slug": "Irish Whiskey",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Ірландський віскі",
+            "en": "Irish Whiskey",
+            "de": "Irischer Whiskey",
+            "es": "Whisky irlandés"
+        },
+        "description": {
+            "ua": "Класичний ірландський напій з м'яким післясмаком.",
+            "en": "A classic Irish drink with a smooth aftertaste.",
+            "de": "Ein klassisches irisches Getränk mit einem milden Abgang.",
+            "es": "Una bebida irlandesa clásica con un retrogusto suave."
+        }
+    }
+},
+{
+    "slug": "Scotch whisky",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Шотландський віскі",
+            "en": "Scotch whisky",
+            "de": "Schottischer Whisky",
+            "es": "Whisky escocés"
+        },
+        "description": {
+            "ua": "Шотландський віскі з глибоким та насиченим смаком.",
+            "en": "Scotch whisky with a deep and rich taste.",
+            "de": "Schottischer Whisky mit einem tiefen und reichen Geschmack.",
+            "es": "Whisky escocés con un sabor profundo y rico."
+        }
+    }
+},
+{
+    "slug": "Gin",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Джин",
+            "en": "Gin",
+            "de": "Gin",
+            "es": "Ginebra"
+        },
+        "description": {
+            "ua": "Джин з освіжаючим та пряним характером.",
+            "en": "A gin with a refreshing and spicy character.",
+            "de": "Ein Gin mit erfrischendem und würzigem Charakter.",
+            "es": "Una ginebra con un carácter refrescante y especiado."
+        }
+    }
+},
+{
+    "slug": "Rum",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Ром",
+            "en": "Rum",
+            "de": "Rum",
+            "es": "Ron"
+        },
+        "description": {
+            "ua": "Ароматний ром з м'яким солодкуватим смаком.",
+            "en": "Aromatic rum with a mild, sweet taste.",
+            "de": "Aaromatischer Rum mit einem milden, süßen Geschmack.",
+            "es": "Ron aromático con un sabor suave y dulce."
+        }
+    }
+},
+{
+    "slug": "Tequila",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Текіла",
+            "en": "Tequila",
+            "de": "Tequila",
+            "es": "Tequila"
+        },
+        "description": {
+            "ua": "Класична текiла для коктейлів та святкового настрою.",
+            "en": "Classic tequila for cocktails and festive mood.",
+            "de": "Klassischer Tequila für Cocktails und festliche Stimmung.",
+            "es": "Tequila clásico para cócteles y un ambiente festivo."
+        }
+    }
+},
+{
+    "slug": "Liqueur",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Лікери",
+            "en": "Liqueur",
+            "de": "Likör",
+            "es": "Licor"
+        },
+        "description": {
+            "ua": "Солодкі лікери з насиченим ароматом та смаком.",
+            "en": "Sweet liqueurs with a rich aroma and taste.",
+            "de": "Süße Liköre mit reichem Aroma und Geschmack.",
+            "es": "Licores dulces con un aroma y sabor intensos."
+        }
+    }
+},
+{
+    "slug": "Brandy and Cognac",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Бренді та Коньяк",
+            "en": "Brandy and Cognac",
+            "de": "Weinbrand und Cognac",
+            "es": "Brandy y Coñac"
+        },
+        "description": {
+            "ua": "Вишукані бренди та коньяки з глибоким ароматом.",
+            "en": "Refined brandies and cognacs with a deep aroma.",
+            "de": "Raffinierte Weinbrände und Cognacs mit tiefem Aroma.",
+            "es": "Brandis y coñacs refinados con un aroma profundo."
+        }
+    }
+},
+{
+    "slug": "Short Drinks",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Short Drinks",
+            "en": "Short Drinks",
+            "de": "Shortdrinks",
+            "es": "Short Drinks"
+        },
+        "description": {
+            "ua": "Short Drinks — баланс міцності та аромату.",
+            "en": "Short drinks — a balance of strength and aroma.",
+            "de": "Shortdrinks — eine Balance zwischen Stärke und Aroma.",
+            "es": "Short drinks: un equilibrio entre fuerza y aroma."
+        }
+    }
+},
+{
+    "slug": "Long Drinks",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Long Drinks",
+            "en": "Long Drinks",
+            "de": "Longdrinks",
+            "es": "Long Drinks"
+        },
+        "description": {
+            "ua": "Легкі коктейлі з льодом та яскравими нотами.",
+            "en": "Light cocktails with ice and bright notes.",
+            "de": "Leichte Cocktails mit Eis und hellen Noten.",
+            "es": "Cócteles ligeros con hielo y notas brillantes."
+        }
+    }
+}
+]
