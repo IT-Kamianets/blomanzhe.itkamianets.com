@@ -1,4 +1,6 @@
 <main class="mx-auto max-w-[var(--container)] px-3 pb-8 pt-3 sm:px-4 sm:pb-10">
+	@let page = content();
+
 	<section
 		class="socials-shell overflow-hidden rounded-[1.4rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] shadow-[var(--shadow-sm)]"
 	>
@@ -6,14 +8,13 @@
 			<p
 				class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
 			>
-				Соцмережі та контакти
+				{{ page.heroLabel }}
 			</p>
 			<h1 class="mt-2 text-[1.8rem] font-semibold leading-9 text-[var(--c-text-secondary)]">
 				Blomanzhe Lounge Cafe
 			</h1>
 			<p class="mt-2 max-w-[44rem] text-sm leading-6 text-[var(--c-text-muted)]">
-				Актуальні контакти ресторану в Кам'янці-Подільському: телефон, адреса, графік
-				роботи, офіційне меню та підтверджені сторінки в соцмережах.
+				{{ page.heroDescription }}
 			</p>
 		</div>
 
@@ -22,7 +23,7 @@
 				<a
 					class="contact-card block rounded-[1.1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 shadow-[var(--shadow-sm)] transition-transform duration-200 hover:-translate-y-0.5"
 					href="tel:+380965030022"
-					aria-label="Зателефонувати до Blomanzhe"
+					[attr.aria-label]="page.callLabel"
 				>
 					<div class="flex items-start gap-4">
 						<span
@@ -36,13 +37,13 @@
 							<p
 								class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
 							>
-								Телефон
+								{{ page.phoneTitle }}
 							</p>
 							<p class="mt-2 text-lg font-semibold text-[var(--c-text-secondary)]">
 								+380 96 503 0022
 							</p>
 							<p class="mt-2 text-sm leading-6 text-[var(--c-text-muted)]">
-								Для бронювання столика, уточнення меню, доставки або деталей подій.
+								{{ page.phoneDescription }}
 							</p>
 						</div>
 					</div>
@@ -63,15 +64,15 @@
 							<p
 								class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
 							>
-								Адреса
+								{{ page.addressTitle }}
 							</p>
 							<p
 								class="mt-2 text-lg font-semibold leading-7 text-[var(--c-text-secondary)]"
 							>
-								вул. Симона Петлюри, 4а, Кам'янець-Подільський, Хмельницька область
+								{{ page.addressValue }}
 							</p>
 							<p class="mt-2 text-sm leading-6 text-[var(--c-text-muted)]">
-								Україна, центр міста. Заклад працює як ресторан, кафе та бар.
+								{{ page.addressDescription }}
 							</p>
 						</div>
 					</div>
@@ -92,13 +93,13 @@
 							<p
 								class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
 							>
-								Графік роботи
+								{{ page.hoursTitle }}
 							</p>
 							<p class="mt-2 text-lg font-semibold text-[var(--c-text-secondary)]">
-								Щодня, 11:00 - 23:00
+								{{ page.hoursValue }}
 							</p>
 							<p class="mt-2 text-sm leading-6 text-[var(--c-text-muted)]">
-								Зазвичай ресторан відкритий без вихідних.
+								{{ page.hoursDescription }}
 							</p>
 						</div>
 					</div>
@@ -121,7 +122,7 @@
 					<p
 						class="mt-4 text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
 					>
-						Кам'янець-Подільський
+						{{ page.city }}
 					</p>
 				</div>
 			</div>
@@ -130,29 +131,33 @@
 				<div
 					class="contact-card rounded-[1.1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 shadow-[var(--shadow-sm)]"
 				>
-					<p class="text-sm font-semibold text-[var(--c-text-secondary)]">Формат закладу</p>
+					<p class="text-sm font-semibold text-[var(--c-text-secondary)]">
+						{{ page.formatTitle }}
+					</p>
 					<p class="mt-2 text-sm leading-6 text-[var(--c-text-muted)]">
-						Ресторан, кафе та бар з європейською кухнею, десертами, бургерами,
-						пастою, м'ясними та рибними стравами.
+						{{ page.formatDescription }}
 					</p>
 				</div>
 
 				<div
 					class="contact-card rounded-[1.1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 shadow-[var(--shadow-sm)]"
 				>
-					<p class="text-sm font-semibold text-[var(--c-text-secondary)]">Що публікують</p>
+					<p class="text-sm font-semibold text-[var(--c-text-secondary)]">
+						{{ page.postsTitle }}
+					</p>
 					<p class="mt-2 text-sm leading-6 text-[var(--c-text-muted)]">
-						Фото страв, відео атмосфери, анонси оновлень меню, сезонні пропозиції та
-						події закладу.
+						{{ page.postsDescription }}
 					</p>
 				</div>
 
 				<div
 					class="contact-card rounded-[1.1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 shadow-[var(--shadow-sm)]"
 				>
-					<p class="text-sm font-semibold text-[var(--c-text-secondary)]">Відгуки гостей</p>
+					<p class="text-sm font-semibold text-[var(--c-text-secondary)]">
+						{{ page.reviewsTitle }}
+					</p>
 					<p class="mt-2 text-sm leading-6 text-[var(--c-text-muted)]">
-						На Tripadvisor ресторан має позитивну репутацію з оцінкою близько 4.3/5.
+						{{ page.reviewsDescription }}
 					</p>
 				</div>
 			</div>
@@ -160,15 +165,13 @@
 
 		<div class="border-t border-[var(--c-border)] px-4 py-6 sm:px-6 lg:px-8">
 			<div class="mb-4">
-				<h2 class="text-lg font-semibold text-[var(--c-text-secondary)]">Офіційні сторінки</h2>
-				<p class="mt-2 max-w-[42rem] text-sm leading-6 text-[var(--c-text-muted)]">
-					Залишив лише посилання, які є в наданій інформації: Instagram, Facebook,
-					онлайн-меню та Tripadvisor.
-				</p>
+				<h2 class="text-lg font-semibold text-[var(--c-text-secondary)]">
+					{{ page.officialPagesTitle }}
+				</h2>
 			</div>
 
 			<div class="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
-				@for (link of socialLinks; track link.href) {
+				@for (link of page.socialLinks; track link.href) {
 					<a
 						class="social-card flex min-h-[10rem] flex-col justify-between rounded-[1.1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 shadow-[var(--shadow-sm)] transition-transform duration-200 hover:-translate-y-0.5"
 						[href]="link.href"
