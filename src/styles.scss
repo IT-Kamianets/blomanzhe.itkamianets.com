@@ -1,6 +1,15 @@
 @use 'tailwindcss';
 @use './styles/theme';
 
+:root {
+	/* Світла тема: білий фон, чорний текст та контури */
+	--c-bg-primary: #ffffff;
+	--c-bg-element: #ffffff;
+	--c-text-primary: #000000;
+	--c-border-primary: #000000;
+	--border-width: 1px;
+}
+
 html,
 body {
 	background: var(--c-bg-primary);
@@ -10,9 +19,28 @@ body {
 	letter-spacing: var(--letter-spacing);
 }
 
+/* Глобальні контури для основних елементів */
+button, 
+input, 
+select, 
+textarea, 
+.card,
+nav {
+	background-color: var(--c-bg-element);
+	border: var(--border-width) solid var(--c-border-primary);
+	color: var(--c-text-primary);
+}
+
 body {
 	min-height: 100vh;
 	margin: 0;
+}
+
+/* Прибираємо контури для груп у меню (категорій: Їжа, Напої тощо) */
+.menu-category-group, 
+.menu-group-item,
+.category-list button {
+	border: none !important;
 }
 
 @plugin "@tailwindcss/typography";

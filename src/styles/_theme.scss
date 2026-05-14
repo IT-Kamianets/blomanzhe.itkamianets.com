@@ -1,27 +1,28 @@
-:root {
+:root,
+html[data-mode='light'] {
 	color-scheme: light;
 
 	/* brand / actions */
-	--c-primary: #a97845;
-	--c-primary-hover: #92663a;
-	--c-secondary: #5b4030;
-	--c-secondary-hover: #483225;
+	--c-primary: #000000;
+	--c-primary-hover: #1f1f1f;
+	--c-secondary: #000000;
+	--c-secondary-hover: #1f1f1f;
 
 	/* surfaces */
-	--c-bg-primary: #5b2137;
-	--c-bg-secondary: #6f2a43;
-	--c-bg-tertiary: #833651;
+	--c-bg-primary: #ffffff;
+	--c-bg-secondary: #ffffff;
+	--c-bg-tertiary: #ffffff;
 
 	/* content */
-	--c-text-primary: #f2d7e3;
-	--c-text-secondary: #fff3f8;
-	--c-text-muted: #d8aebf;
-	--c-placeholder: #d8aebfb3;
+	--c-text-primary: #000000;
+	--c-text-secondary: #000000;
+	--c-text-muted: #000000;
+	--c-placeholder: #000000b3;
 
 	/* borders & elevation */
-	--c-border: #9d5d75;
-	--shadow-sm: 0 1px 2px rgba(35, 9, 19, 0.18);
-	--shadow-md: 0 10px 30px rgba(35, 9, 19, 0.3);
+	--c-border: #000000;
+	--shadow-sm: none;
+	--shadow-md: none;
 
 	/* typography */
 	--ff-base: 'Poppins', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
@@ -59,7 +60,7 @@
 	--motion-slow: 0.4s;
 
 	/* focus */
-	--focus-ring: 0 0 0 3px rgba(169, 120, 69, 0.24);
+	--focus-ring: 0 0 0 3px rgba(0, 0, 0, 0.22);
 }
 
 html[data-mode='dark'] {

@@ -42,6 +42,7 @@ export class TopbarComponent {
 
 	constructor() {
 		this._themeService.init();
+		this._syncMode();
 		this._languageService.init();
 	}
 
@@ -70,5 +71,20 @@ export class TopbarComponent {
 		const currentIndex = languages.findIndex((language) => language.code === currentCode);
 
 		return languages[(currentIndex + 1) % languages.length] ?? languages[0]!;
+	}
+
+	private _syncMode() {
+		if (typeof localStorage === 'undefined') {
+			return;
+		}
+
+		const mode = this._readStoredMode() ?? 'light';
+		this._themeService.setMode(mode);
+	}
+
+	private _readStoredMode() {
+		const mode = localStorage.getItem('theme.mode') ?? localStorage.getItem('app-mode');
+
+		return mode === 'dark' || mode === 'light' ? mode : undefined;
 	}
 }
